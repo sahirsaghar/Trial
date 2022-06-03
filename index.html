@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
     <style>
-body {
-  background-color: lightgreen;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-</style>
+      @media (max-width: 75em) {
+        html {
+          font-size: 60%;
+        }
+      }
+      
+      
+      @media (max-width: 61.25em) {
+        html {
+          font-size: 58%;
+        }
+      }
+      
+      
+      @media (max-width: 28.75em) {
+        html {
+          font-size: 55%;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>an HTML n CSS trial by Sahir and Ayodeji</title>
+    <link rel="stylesheet" href="css/style.css">
+    <div id="navbar">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#projects">Our-Projects</a>
+    </div>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    "hello world, we are software developers!"
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-    <div id="navbar">
-      <a href="#">Home</a>
-      <a href="#">About Me</a>
-      <a href="#">Portfolio</a>
-  </div>
-  <section id="welcome-section">
-      <h1>This is a Portfolio Project</h1>
-  </section>
-  <section id="projects">
-    <img class="project-tile" src ="#" alt="">
-    <a href="#">
-      This is a link to a project
-    </a>
-  </section>
-
-  <a id="profile-link" href="#" target=_blank>GitHub Profile</a>
-  </body>
+    <section id="welcome-section">
+      <h1>Welcome to our development page</h1>
+    </section>
+   <ul> 
+     <li><a href="https://github.com/sahirsaghar" target= "_blank" id="profile-link"  >To Sahir's Github </a></li>
+   <li> <a href="https://github.com/demix007" target= "_blank" id="profile-link" >To Ayodeji's Github </a></li>
+   </ul>
+    <section id="projects"> <h2 class="projects-section-header">These are some of our projects</h2>
+      <div class="boxy">
+      <a href="#"><figure><img src="https://images.unsplash.com/photo-1631070217014-dcc14e0c8502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Fruits on a table" class="project-tile"></figure><figcaption>Fruits in a bowl</figcaption></a>
+      <a href="#"><figure><img src="https://images.unsplash.com/photo-1654199664489-e37c6d7a4f6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="good building view" class="project-tile"></figure><figcaption>Sky view</figcaption></a>
+      <a href="#"><figure><img src="https://images.unsplash.com/photo-1653919614683-2afa15f602fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="solitude" class="project-tile"></figure><figcaption>Solitude</figcaption></a>
+      </div>
+    </section>
+    </body>
 </html>
